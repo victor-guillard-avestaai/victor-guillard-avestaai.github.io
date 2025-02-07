@@ -2,18 +2,11 @@ title: Victor Guillard - Data Scientist & AI Enthusiast # Titre plus percutant
 
 logo: "/images/new-photo-1.jpg?raw=true" # Assurez-vous d'avoir une photo professionnelle "profile.jpg" dans /images/
 
-description: > # Description retravaillée et impactante
-  Data Scientist avec une solide formation académique et une passion pour l'IA.
-  <br><br>
-  Diplômé du Master M2MO (Université Paris Cité, Centrale Paris, ENSAE) avec expertise en mathématiques appliquées, probabilités, statistiques et Data Science. Expérience en recherche au laboratoire ISIR (Sorbonne Université) sur l'incertitude des réseaux de neurones.
-  <br><br>
-  Esprit entrepreneurial : création d'entreprise pour développer des compétences techniques diversifiées (DevOps, cloud, web, bases de données, architecture système) et stratégiques (marketing, vente, gestion de projet).
-  <br><br>
-  Pédagogue : expérience d'enseignement des mathématiques, capacité à vulgariser des concepts techniques.
-  <br><br>
-  Souhaite intégrer un environnement collaboratif et innovant pour contribuer à des projets ambitieux en Data Science et IA.
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">Voir mon profil LinkedIn</a> # N'oubliez pas de mettre votre vrai lien LinkedIn !
+description: > 
+  Data Scientist, titulaire d’un Master 2 M2MO (Université Paris Cité, Centrale Paris & ENSAE). <br><br>
+  Projets avancés en IA (mesure de l’incertitude dans les réseaux de neurones) et expérience terrain : développement web (Go), cloud computing, DevOps et architecture système. <br><br>
+  Enseignant en mathématiques, j’ai renforcé ma pédagogie et ma capacité à vulgariser des concepts techniques pour des publics variés. Je recherche un environnement collaboratif et exigeant où je pourrai perfectionner mes acquis et contribuer à des projets ambitieux. <br><br>
+  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a>
 
 remote_theme: pages-themes/minimal@v0.2.0 # Thème minimaliste et professionnel, parfait pour un portfolio
 
