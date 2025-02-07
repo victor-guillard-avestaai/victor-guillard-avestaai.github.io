@@ -1,13 +1,23 @@
-title: Victor Guillard # your name (or website title) here
-logo: "/images/new-photo-1.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+title: Victor Guillard - Data Scientist & AI Enthusiast # Titre plus percutant
+
+logo: "/images/profile.jpg?raw=true" # Assurez-vous d'avoir une photo professionnelle "profile.jpg" dans /images/
+
+description: > # Description retravaillée et impactante
+  Data Scientist avec une solide formation académique et une passion pour l'IA.
   <br><br>
-  Second description 
+  Diplômé du Master M2MO (Université Paris Cité, Centrale Paris, ENSAE) avec expertise en mathématiques appliquées, probabilités, statistiques et Data Science. Expérience en recherche au laboratoire ISIR (Sorbonne Université) sur l'incertitude des réseaux de neurones.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
-  
-remote_theme: pages-themes/minimal@v0.2.0
+  Esprit entrepreneurial : création d'entreprise pour développer des compétences techniques diversifiées (DevOps, cloud, web, bases de données, architecture système) et stratégiques (marketing, vente, gestion de projet).
+  <br><br>
+  Pédagogue : expérience d'enseignement des mathématiques, capacité à vulgariser des concepts techniques.
+  <br><br>
+  Souhaite intégrer un environnement collaboratif et innovant pour contribuer à des projets ambitieux en Data Science et IA.
+  <br><br>
+  <a href="https://www.linkedin.com/in/example/">Voir mon profil LinkedIn</a> # N'oubliez pas de mettre votre vrai lien LinkedIn !
+
+remote_theme: pages-themes/minimal@v0.2.0 # Thème minimaliste et professionnel, parfait pour un portfolio
+
 plugins:
-- jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+  - jekyll-remote-theme # Plugin nécessaire pour remote_theme
+
+google_analytics: UA-000000-0 
