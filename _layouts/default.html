@@ -21,6 +21,124 @@
    <![endif]-->
 </head>
 <body>
+   
+<style>
+  /* --- Import des polices Google Fonts --- */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+  /* --- Définition des variables de couleurs --- */
+  :root {
+    --primary-color: #007bff;       /* Bleu principal (accent) - Modifiez selon votre préférence */
+    --text-color: #333;
+    --heading-color: #222;
+    --background-color: #f8f8f8; /* Gris très clair pour l'arrière-plan */
+  }
+
+  /* --- Styles globaux du body --- */
+  body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: 2em; /* Marge intérieure autour du contenu principal */
+  }
+
+  /* --- Styles des conteneurs principaux --- */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+
+  /* --- Styles des titres (h1 à h6) --- */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--heading-color);
+  }
+
+  /* --- Styles des paragraphes --- */
+  p {
+    margin-bottom: 1.2em;
+  }
+
+  /* --- Espacement des titres secondaires (h2, h3) --- */
+  h2, h3 {
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+  }
+
+  /* --- Styles des liens (<a>) --- */
+  a {
+    color: var(--primary-color); /* Couleur principale pour les liens */
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+  }
+
+  a:hover {
+    color: #0056b3; /* Bleu légèrement plus foncé au survol - Ajustez selon votre couleur primaire */
+    text-decoration: underline; /* Ajoute un soulignement au survol pour indication */
+  }
+
+  /* --- Styles des boutons (exemple - à adapter à vos éléments boutons si vous en avez) --- */
+  .button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #0056b3; /* Bleu légèrement plus foncé au survol du bouton - Ajustez */
+  }
+
+  /* --- Styles des listes (<ul> et <ol>) --- */
+  ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  /* --- Styles des citations (<blockquote>) --- */
+  blockquote {
+    border-left: 3px solid var(--primary-color);
+    padding-left: 1em;
+    font-style: italic;
+    color: #777;
+    margin: 1.5em 0;
+  }
+
+  /* --- Styles des blocs de code (<pre> et <code>) --- */
+  pre, code {
+    background-color: #f0f0f0;
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 0.9em;
+  }
+
+  pre {
+    padding: 1em;
+    overflow-x: auto;
+  }
+
+  /* --- Responsivité (pour les écrans plus petits que 768px - typiquement mobiles) --- */
+  @media screen and (max-width: 768px) {
+    body {
+      padding: 1em; /* Réduit le padding sur mobile */
+      font-size: 1em;
+    }
+
+    .container {
+      padding: 1em; /* Réduit le padding du conteneur sur mobile */
+    }
+    /* Vous pouvez ajouter d'autres ajustements spécifiques pour mobile ici si nécessaire */
+  }
+
+</style>
+
+   
    <div class="wrapper">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
