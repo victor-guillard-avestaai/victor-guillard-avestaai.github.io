@@ -28,10 +28,10 @@
 
   /* --- Définition des variables de couleurs --- */
   :root {
-    --primary-color: #007bff;       /* Bleu principal (accent) - Modifiez selon votre préférence */
+    --primary-color: #007bff;       /* Couleur principale (utilisée ailleurs si besoin) */
     --text-color: #333;
     --heading-color: #222;
-    --background-color: #f8f8f8; /* Gris très clair pour l'arrière-plan */
+    --background-color: #f8f8f8;    /* Gris très clair pour l'arrière-plan */
   }
 
   /* --- Styles globaux du body --- */
@@ -48,6 +48,8 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 1.5em;
+    background-color: #fff; /* Arrière-plan blanc pour plus de contraste */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Léger effet d'ombre */
   }
 
   /* --- Styles des titres (h1 à h6) --- */
@@ -55,6 +57,8 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: var(--heading-color);
+    margin-top: 0;
+    margin-bottom: 0.8em;
   }
 
   /* --- Styles des paragraphes --- */
@@ -68,30 +72,32 @@
     margin-bottom: 0.8em;
   }
 
-  /* --- Styles des liens (<a>) --- */
+  /* --- Styles des liens (<a>) : en noir et non soulignés --- */
   a {
-    color: var(--primary-color); /* Couleur principale pour les liens */
-    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    color: #000;           /* Couleur noire pour le texte du lien */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    transition: color 0.2s ease;
   }
 
   a:hover {
-    color: #0056b3; /* Bleu légèrement plus foncé au survol - Ajustez selon votre couleur primaire */
-    text-decoration: underline; /* Ajoute un soulignement au survol pour indication */
+    color: #555;           /* Gris plus foncé au survol */
+    text-decoration: none; /* Pas de soulignement au survol non plus */
   }
 
-  /* --- Styles des boutons (exemple - à adapter à vos éléments boutons si vous en avez) --- */
+  /* --- Styles des boutons (exemple - à adapter si besoin) --- */
   .button {
     background-color: var(--primary-color);
-    color: white;
+    color: #fff;
     padding: 0.8em 1.5em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
     transition: background-color 0.3s ease;
   }
 
   .button:hover {
-    background-color: #0056b3; /* Bleu légèrement plus foncé au survol du bouton - Ajustez */
+    background-color: #0056b3; /* Bleu légèrement plus foncé au survol du bouton */
   }
 
   /* --- Styles des listes (<ul> et <ol>) --- */
@@ -123,19 +129,18 @@
     overflow-x: auto;
   }
 
-  /* --- Responsivité (pour les écrans plus petits que 768px - typiquement mobiles) --- */
+  /* --- Responsivité (pour les écrans plus petits que 768px) --- */
   @media screen and (max-width: 768px) {
     body {
-      padding: 1em; /* Réduit le padding sur mobile */
+      padding: 1em;
       font-size: 1em;
     }
 
     .container {
-      padding: 1em; /* Réduit le padding du conteneur sur mobile */
+      padding: 1em;
+      box-shadow: none; /* On peut enlever l'ombre pour un rendu plus léger sur mobile */
     }
-    /* Vous pouvez ajouter d'autres ajustements spécifiques pour mobile ici si nécessaire */
   }
-
 </style>
 
    
