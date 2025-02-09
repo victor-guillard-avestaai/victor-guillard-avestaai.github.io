@@ -8,7 +8,7 @@ Les réseaux de neurones profonds sont performants, mais délicats à employer e
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/PyTorch-white?logo=PyTorch)](#)
 
-[View Abstract](#) <!-- Lien vers l'abstract ou un document plus détaillé, si disponible -->
+[Voir l'abstract](/pdf/Rapport_de_Stage.pdf) <!-- Lien vers l'abstract ou un document plus détaillé, si disponible -->
 
 ---
 
@@ -18,7 +18,9 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
 
-[View Code/Details](#) <!-- Remplace par un lien réel, GitHub/Colab, etc. -->
+[Voir le Rapport](/pdf/Projet_SEGBO.pdf) <!-- Remplace par un lien réel, GitHub/Colab, etc. -->
+[Voir le Code](/pdf/Projet_SEGBO.pdf) <!-- Remplace par un lien réel, GitHub/Colab, etc. -->
+
 
 ---
 
@@ -29,7 +31,8 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 [![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
 [![](https://img.shields.io/badge/XGBoost-white?logo=Xing)](#)
 
-[View Code/Details](#)
+[Voir le Rapport](/pdf/Projet_SDE_Victor_GUILLARD.pdf) <!-- Remplace par un lien réel, GitHub/Colab, etc. -->
+[Voir le Code](/pdf/Projet_SEGBO.pdf) <!-- Remplace par un lien réel, GitHub/Colab, etc. -->
 
 ---
 
