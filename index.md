@@ -86,60 +86,7 @@ J’ai développé un système de chatbots pour assister les hôtes d’accueil 
 [![](https://img.shields.io/badge/VertexAI-white?logo=Google)](#)
 [![](https://img.shields.io/badge/RAG-white)](#)
 
-{% raw %}
-
-```mermaid
-flowchart TB
-
-    %% Début du flux
-    A[Message entrant<br>(handle_message)] --> B{Message<br>Commence par 'REQ' ?}
-
-    %% Bloc "REQ"
-    B -->|Oui| C[Ticket Workflow<br>(Ex. renvoyer 'Requête reçue')]
-    C --> D[Fin]
-
-    %% Si ce n'est pas un message 'REQ'
-    B -->|Non| E[Évaluation<br>de la complexité<br>via LLM classify]
-
-    %% Évaluation de la complexité
-    E --> F{Complexité<br>= 0,1 ou 2 ?}
-
-    %% Catégorie 0
-    F -->|0 (Non pertinent)| G[Répondre<br>"Je n'ai pas compris..."]
-    G --> D[Fin]
-
-    %% Catégorie 1
-    F -->|1 (Simple)| H[Réponse directe<br>(fourni par l'LLM)]
-    H --> D[Fin]
-
-    %% Catégorie 2
-    F -->|2 (Recherche requise)| I[Extraire mots-clés]
-
-    %% RAG Pipeline
-    I --> J[Calcul Embeddings<br>(user_message)]
-    I --> K[Extraction par mots-clés]
-
-    %% Lancement en parallèle (Async)
-    J --> L[Recherche par<br>Similarité (embedding)]
-    K --> M[Recherche par<br>Mots-clés]
-    L --> N[Combinaison<br>des résultats]
-    M --> N
-
-    %% Fusion & RRF
-    N --> O[Fusion & RRF<br>(fused_score)]
-    O --> P{Documents<br>pertinents ?}
-
-    %% Si pas de résultats => question sans réponse
-    P -->|Non| Q[Stocker la<br>question en base<br>(unanswered_questions)]
-    P -->|Oui| R[Générer Prompt final<br>avec extraits pertinents]
-
-    R --> S[Modèle LLM<br>=> Génération de la réponse]
-    S --> T[Répondre à l'utilisateur]
-    Q --> T
-    T --> D[Fin]
-```
-{% endraw %}
-
+<img src="images/PieplineRAG.png" alt="Diagramme du fonctionnement de la pipeline de l'algorithme RAG pour le chatbot dédié aux hôtes">
 
 [View Code/Details](#) <!-- Remplace par un lien réel (GitHub/Colab) si disponible -->
 
