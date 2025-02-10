@@ -86,6 +86,8 @@ J’ai développé un système de chatbots pour assister les hôtes d’accueil 
 [![](https://img.shields.io/badge/VertexAI-white?logo=Google)](#)
 [![](https://img.shields.io/badge/RAG-white)](#)
 
+{% raw %}
+
 ```mermaid
 flowchart TB
 
@@ -136,6 +138,7 @@ flowchart TB
     Q --> T
     T --> D[Fin]
 ```
+{% endraw %}
 
 
 [View Code/Details](#) <!-- Remplace par un lien réel (GitHub/Colab) si disponible -->
