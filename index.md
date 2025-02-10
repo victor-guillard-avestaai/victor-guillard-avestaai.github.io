@@ -67,7 +67,7 @@ J’ai développé un agent de Reinforcement Learning (Q-learning) capable de jo
 
 ---
 
-### 5. Système de chatbots d’assistance (RAG)
+### 5. Chatbot d’assistance aux hôtes d'accueil (RAG)
 J’ai développé un système de chatbots pour assister les hôtes d’accueil et leurs managers, en utilisant un algorithme Retrieval-Augmented Generation (RAG). Le premier chatbot répond aux questions courantes en s’appuyant sur la base de connaissances interne, tandis que le second permet aux managers de mettre à jour cette base, en collectant et résolvant les questions restées sans réponse.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
