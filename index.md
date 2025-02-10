@@ -37,9 +37,6 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 [![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
 [![](https://img.shields.io/badge/XGBoost-white?logo=Xing)](#)
 
-[Voir le Rapport](/pdf/Projet_SDE_Victor_GUILLARD.pdf) <br>
-[Voir le Code sur Google Colab](https://colab.research.google.com/drive/1uIB-5KZ02RgDeXS8ZM-ytIbKiyp1N5HZ#scrollTo=iNhjekzgFfok) 
-
 <a href="/pdf/Projet_SDE_Victor_GUILLARD.pdf" target="_blank" rel="noopener noreferrer">
   Voir le Rapport
 </a>
