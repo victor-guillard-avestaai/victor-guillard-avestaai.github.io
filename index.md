@@ -86,6 +86,38 @@ J’ai développé un système de chatbots pour assister les hôtes d’accueil 
 [![](https://img.shields.io/badge/VertexAI-white?logo=Google)](#)
 [![](https://img.shields.io/badge/RAG-white)](#)
 
+```mermaid
+flowchart TB
+    A[Incoming HTTP Request] --> B{Message reçu}
+    B -->|Starts with 'REQ'| C[(Ticket<br> Workflow)]
+    B -->|Else| D[Évaluer la complexité<br>(LLM classify)]
+    
+    C --> C1[Publier log 'ticket'<br> sur Pub/Sub]
+    C1 --> C2[Renvoyer 'Requête reçue !'<br>à l'utilisateur]
+    C2 --> O[Fin]
+    
+    D --> E{Complexité ?}
+    E -->|0<br>(Non pertinent)| F[Répondre<br>"Je n'ai pas compris..."]
+    E -->|1<br>(Simple)| G[Répondre<br>Answer direct]
+    E -->|2<br>(Nécessite recherche)| H[Extraire mots-clés<br>depuis la réponse LLM]
+    
+    H --> I{Exécuter<br>perform_ensemble_search}
+    I --> K[Requête async<br>1) Similarity Search<br>2) Keyword Search]
+    K --> L[Combiner résultats<br>avec fused_score<br>et tri RRF]
+    L --> M[Générer prompt final<br> + LLM]
+    M --> N[Réponse finale<br>renvoyée à l'utilisateur]
+    N --> Q{Résultats trouvés ?}
+    Q -->|Non| R[Stocker<br>question inanswered<br>(si unique)]
+    Q -->|Oui| S[Passer à log]
+    R --> S
+    
+    F --> T[Publier log 'general']
+    G --> T
+    S --> T[Publier log 'general']
+    T --> O[Fin]
+```
+
+
 [View Code/Details](#) <!-- Remplace par un lien réel (GitHub/Colab) si disponible -->
 
 ---
