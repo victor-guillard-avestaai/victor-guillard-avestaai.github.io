@@ -1,4 +1,4 @@
-## Projets de Data Science et d'IA
+![image](https://github.com/user-attachments/assets/09930439-00c6-4848-bb9e-7d8a67e5579a)## Projets de Data Science et d'IA
 
 ---
 
@@ -7,6 +7,8 @@ Les réseaux de neurones profonds sont performants, mais délicats à employer e
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#)
+
+<img src="images/ConfidNet.png" alt="Exemple de méthodes de mesure de l'incertitude : ConfidNet" width="300" height="200">
 
 <a href="/pdf/Rapport_de_Stage.pdf" target="_blank" rel="noopener noreferrer">
   Voir l'Abstract
