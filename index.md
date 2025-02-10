@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/09930439-00c6-4848-bb9e-7d8a67e5579a)## Projets de Data Science et d'IA
+## Projets de Data Science et d'IA
 
 ---
 
@@ -8,7 +8,7 @@ Les réseaux de neurones profonds sont performants, mais délicats à employer e
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#)
 
-<img src="images/ConfidNet.png" alt="Exemple de méthodes de mesure de l'incertitude : ConfidNet" width="300" height="200">
+<img src="images/ConfidNet.png" alt="Exemple de méthodes de mesure de l'incertitude : ConfidNet">
 
 <a href="/pdf/Rapport_de_Stage.pdf" target="_blank" rel="noopener noreferrer">
   Voir l'Abstract
@@ -21,6 +21,9 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
+
+<img src="images/SEGBO_Features.png" alt="Analyse de l'importance des features dans la segmentation">
+<img src="images/SEGBO_Heatmap.png" alt="Heatmap de la performance de l'algorithme d'affectation">
 
 <a href="/pdf/Projet_SEGBO.pdf" target="_blank" rel="noopener noreferrer">
   Voir le Rapport
@@ -39,6 +42,8 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 [![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
 [![](https://img.shields.io/badge/XGBoost-white?logo=Xing)](#)
 
+<img src="images/SE_Countries.png" alt="Analyse exploratoire de la relation entre notes des vins et pays producteurs">
+
 <a href="/pdf/Projet_SDE_Victor_GUILLARD.pdf" target="_blank" rel="noopener noreferrer">
   Voir le Rapport
 </a>
@@ -55,6 +60,7 @@ J’ai développé un agent de Reinforcement Learning (Q-learning) capable de jo
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/RL-white?logo=Python)](#)
 
+<img src="images/GraphRL.png" alt="Amélioration du winrate de l'algorithme de Q-Learning durant l'apprentissage">
 
 <a href="https://colab.research.google.com/drive/1HZegRx9fYePS_Wf6cg2Psetrcyz1bhKy" target="_blank" rel="noopener noreferrer">
   Voir le Code sur Google Colab
