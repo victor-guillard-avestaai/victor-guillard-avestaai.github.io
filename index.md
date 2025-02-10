@@ -1,4 +1,4 @@
-## Projets de Data Science et d'IA
+## Séléction de projets de Data Science, d'IA et de Développement Web
 
 ---
 
