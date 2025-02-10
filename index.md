@@ -20,8 +20,13 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
 
-[Voir le Rapport](/pdf/Projet_SEGBO.pdf) <br> <!-- Remplace par un lien réel, GitHub/Colab, etc. -->
-[Voir le Code sur Google Colab](https://colab.research.google.com/drive/1B94dVjn-zX4Q8ZtYT8QObMjvjULUpKbD) 
+<a href="/pdf/Projet_SEGBO.pdf" target="_blank" rel="noopener noreferrer">
+  Voir le Rapport
+</a>
+
+<a href="https://colab.research.google.com/drive/1B94dVjn-zX4Q8ZtYT8QObMjvjULUpKbD" target="_blank" rel="noopener noreferrer">
+  Voir le Code sur Google Colab
+</a>
 
 ---
 
@@ -35,6 +40,14 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 [Voir le Rapport](/pdf/Projet_SDE_Victor_GUILLARD.pdf) <br>
 [Voir le Code sur Google Colab](https://colab.research.google.com/drive/1uIB-5KZ02RgDeXS8ZM-ytIbKiyp1N5HZ#scrollTo=iNhjekzgFfok) 
 
+<a href="/pdf/Projet_SDE_Victor_GUILLARD.pdf" target="_blank" rel="noopener noreferrer">
+  Voir le Rapport
+</a>
+
+<a href="https://colab.research.google.com/drive/1uIB-5KZ02RgDeXS8ZM-ytIbKiyp1N5HZ#scrollTo=iNhjekzgFfok" target="_blank" rel="noopener noreferrer">
+  Voir le Code sur Google Colab
+</a>
+
 ---
 
 ### 4. Reinforcement Learning : IA pour jouer au Puissance 4
@@ -43,7 +56,10 @@ J’ai développé un agent de Reinforcement Learning (Q-learning) capable de jo
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/RL-white?logo=Python)](#)
 
-[Voir le Code sur Google Colab]([#](https://colab.research.google.com/drive/1HZegRx9fYePS_Wf6cg2Psetrcyz1bhKy))
+
+<a href="https://colab.research.google.com/drive/1HZegRx9fYePS_Wf6cg2Psetrcyz1bhKy" target="_blank" rel="noopener noreferrer">
+  Voir le Code sur Google Colab
+</a>
 
 ---
 
