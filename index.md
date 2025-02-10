@@ -78,13 +78,14 @@ Au cours de ma création d’entreprise, j’ai conçu diverses applications IA 
 
 ---
 
-### 5. Projet entrepreneurial : (à venir)
-Au cours de ma création d’entreprise, j’ai conçu diverses applications IA (par ex. intégration de LLM, pipeline DataOps, etc.). Je détaillerai bientôt un cas client complet, du concept initial à la mise en production.
+### 6. Système de chatbots d’assistance (RAG)
+J’ai développé un système de chatbots pour assister les hôtes d’accueil et leurs managers, en utilisant un algorithme Retrieval-Augmented Generation (RAG). Le premier chatbot répond aux questions courantes en s’appuyant sur la base de connaissances interne, tandis que le second permet aux managers de mettre à jour cette base, en collectant et résolvant les questions restées sans réponse.
 
-[![](https://img.shields.io/badge/GoLang-white?logo=Go)](#)
-[![](https://img.shields.io/badge/Cloud_Computing-white?logo=Google-Cloud)](#)
-[![](https://img.shields.io/badge/DevOps-white?logo=Docker)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#)
+[![](https://img.shields.io/badge/GCP-white?logo=GoogleCloud)](#)
+[![](https://img.shields.io/badge/VertexAI-white?logo=Google)](#)
+[![](https://img.shields.io/badge/RAG-white)](#)
 
-[Coming soon](#)
+[View Code/Details](#) <!-- Remplace par un lien réel (GitHub/Colab) si disponible -->
 
 ---
