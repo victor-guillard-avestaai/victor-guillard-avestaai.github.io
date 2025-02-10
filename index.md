@@ -59,6 +59,8 @@ J’ai développé un agent de Reinforcement Learning (Q-learning) capable de jo
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/RL-white?logo=Python)](#)
 
+<img src="images/GraphRL.png" alt="Evolution du winrate de l'algorithme de Q-Learning">
+
 <a href="https://colab.research.google.com/drive/1HZegRx9fYePS_Wf6cg2Psetrcyz1bhKy" target="_blank" rel="noopener noreferrer">
   Voir le Code sur Google Colab
 </a>
