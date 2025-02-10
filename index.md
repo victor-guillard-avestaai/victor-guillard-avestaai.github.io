@@ -75,7 +75,7 @@ J’ai développé un système de chatbots pour assister les hôtes d’accueil 
 [![](https://img.shields.io/badge/VertexAI-white?logo=Google)](#)
 [![](https://img.shields.io/badge/RAG-white)](#)
 
-<img src="images/PieplineRAG.png" alt="Diagramme du fonctionnement de la pipeline de l'algorithme RAG pour le chatbot dédié aux hôtes">
+<img src="images/PieplineRAG.png" alt="Diagramme de la pipeline de l'algorithme RAG pour le chatbot dédié aux hôtes">
 
 [View Code/Details](#) <!-- Remplace par un lien réel (GitHub/Colab) si disponible -->
 
