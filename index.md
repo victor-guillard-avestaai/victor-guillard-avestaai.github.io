@@ -6,7 +6,7 @@
 Les réseaux de neurones profonds sont performants, mais délicats à employer en milieux sensibles. Dans ce projet, j’ai étudié et ré-implémenté des approches avancées d’estimation de l’incertitude (Monte Carlo Dropout, ConfidNet) et proposé de nouvelles méthodes pour améliorer l’état de l’art.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
-[![](https://img.shields.io/badge/PyTorch-white?logo=PyTorch)](#)
+[![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#)
 
 <a href="/pdf/Rapport_de_Stage.pdf" target="_blank" rel="noopener noreferrer">
   Voir l'Abstract
