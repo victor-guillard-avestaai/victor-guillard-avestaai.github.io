@@ -22,7 +22,6 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
 
-<img src="images/SEGBO_Features.png" alt="Analyse de l'importance des features dans la segmentation">
 <img src="images/SEGBO_Heatmap.png" alt="Heatmap de la performance de l'algorithme d'affectation">
 
 <a href="/pdf/Projet_SEGBO.pdf" target="_blank" rel="noopener noreferrer">
