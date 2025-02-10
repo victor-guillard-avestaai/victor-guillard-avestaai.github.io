@@ -78,4 +78,23 @@ J’ai développé un système de chatbots pour assister les hôtes d’accueil 
 <a href="images/PipelineRAG.png" target="_blank" rel="noopener noreferrer">
   Voir un diagramme explicatif de la pipeline RAG
 </a>
+
 ---
+
+### 6. Application Web en Go (Echo, Tailwind, Docker)
+J’ai développé une web app inspirée de ChatGPT. Les utilisateurs peuvent s’inscrire, se connecter et interagir avec un LLM via un chat. L'authentification est gérée de manière sécurisée (hash de mots de passe, protection CSRF, sessions en base, etc.). L’UI a été conçue avec Tailwind CSS et DaisyUI pour apporter un rendu moderne, et l’ensemble du projet s’appuie sur un pipeline CI/CD (GitHub Actions) pour un déploiement fluide sur Google Cloud Run. Ce projet se distingue par sa modularité (architecture claire en Go et Echo), son approche sécurisée (sessions, cookies, rôles), et sa pipeline de CI/CD (tests et builds Docker automatisés), permettant de déployer rapidement de nouvelles fonctionnalités et de scaler facilement.
+
+Vous pouvez tester cette web app en cliquant sur le lien ci-dessous et en vous connectant avec les identifiants suivants.
+Nom de compte : example@example.com
+Mot de passe : Achanger123!
+
+
+[![](https://img.shields.io/badge/-Go-white?logo=go)](#)
+[![](https://img.shields.io/badge/-Echo-white?logo=go)](#)
+[![](https://img.shields.io/badge/-Tailwind_CSS-white?logo=tailwindcss)](#)
+[![](https://img.shields.io/badge/-Docker-white?logo=docker)](#)
+[![](https://img.shields.io/badge/-PostgreSQL-white?logo=postgresql)](#)
+
+<a href="https://avestaai.com" target="_blank" rel="noopener noreferrer">
+  Lien vers l'application web
+</a>
