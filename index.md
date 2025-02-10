@@ -59,11 +59,20 @@ J’ai développé un agent de Reinforcement Learning (Q-learning) capable de jo
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/RL-white?logo=Python)](#)
 
-<img src="images/GraphRL.png" alt="Amélioration du winrate de l'algorithme de Q-Learning durant l'apprentissage">
-
 <a href="https://colab.research.google.com/drive/1HZegRx9fYePS_Wf6cg2Psetrcyz1bhKy" target="_blank" rel="noopener noreferrer">
   Voir le Code sur Google Colab
 </a>
+
+---
+
+### 5. Chatbot d'assistance aux hôtes d'accueil : LLM & RAG
+Au cours de ma création d’entreprise, j’ai conçu diverses applications IA (par ex. intégration de LLM, pipeline DataOps, etc.). Je détaillerai bientôt un cas client complet, du concept initial à la mise en production.
+
+[![](https://img.shields.io/badge/GoLang-white?logo=Go)](#)
+[![](https://img.shields.io/badge/Cloud_Computing-white?logo=Google-Cloud)](#)
+[![](https://img.shields.io/badge/DevOps-white?logo=Docker)](#)
+
+[Coming soon](#)
 
 ---
 
