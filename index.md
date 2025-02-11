@@ -1,4 +1,4 @@
-## Séléction de projets de Data Science, d'IA et de Développement Web
+## Sélection de projets de Data Science, d'IA et de Développement Web
 
 ---
 
@@ -85,8 +85,8 @@ J’ai développé un système de chatbots pour assister les hôtes d’accueil 
 J’ai développé une web app inspirée de ChatGPT. Les utilisateurs peuvent s’inscrire, se connecter et interagir avec un LLM via un chat. L'authentification est gérée de manière sécurisée (hash de mots de passe, protection CSRF, sessions en base, etc.). L’UI a été conçue avec Tailwind CSS et DaisyUI pour apporter un rendu moderne, et l’ensemble du projet s’appuie sur un pipeline CI/CD (GitHub Actions) pour un déploiement fluide sur Google Cloud Run. Ce projet se distingue par sa modularité (architecture claire en Go et Echo), son approche sécurisée (sessions, cookies, rôles), et sa pipeline de CI/CD (tests et builds Docker automatisés), permettant de déployer rapidement de nouvelles fonctionnalités et de scaler facilement.
 
 Vous pouvez tester cette web app en cliquant sur le lien ci-dessous et en vous connectant avec les identifiants suivants.
-Nom de compte : example@example.com
-Mot de passe : Achanger123!
+<b>Nom de compte</b> : example@example.com <br>
+<b>Mot de passe</b> : Achanger123!
 
 
 [![](https://img.shields.io/badge/-Go-white?logo=go)](#)
