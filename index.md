@@ -3,7 +3,7 @@
 ---
 
 ### 1. Stage de recherche : Estimation d’incertitude dans les réseaux de neurones
-Les réseaux de neurones profonds sont performants, mais délicats à employer en milieux sensibles. Dans ce projet, j’ai étudié et ré-implémenté des approches avancées d’estimation de l’incertitude (Monte Carlo Dropout, ConfidNet) et proposé de nouvelles méthodes pour améliorer l’état de l’art.
+Les réseaux de neurones profonds sont très performants, mais leur manque d'explicabilité les rend délicats à utiliser, notamment en milieux sensibles comme le médical. Dans ce projet, j’ai étudié et ré-implémenté des approches avancées d’estimation de l’incertitude (Monte Carlo Dropout, ConfidNet) et proposé de nouvelles méthodes pour améliorer l’état de l’art.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#)
@@ -35,7 +35,7 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentat
 ---
 
 ### 3. Prédiction de la note d’un vin (classification multiclasse)
-À partir de 130 000 vins, j’ai conçu un modèle pour prédire leur note (1 à 5 étoiles). Après un nettoyage approfondi des variables (prix, région, cépage, descriptifs de dégustation), j’ai implémenté une régression logistique puis un XGBoost, obtenant d’excellents résultats.
+À partir des données de 130 000 vins, j’ai conçu un modèle pour prédire leur note decernée par des critiques (1 à 5 étoiles). Après un nettoyage approfondi des variables (prix, région, cépage, descriptifs de dégustation), j’ai implémenté une régression logistique puis un XGBoost, obtenant d’excellents résultats.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
 [![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
