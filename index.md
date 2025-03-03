@@ -87,7 +87,6 @@ J’ai développé une web app inspirée de ChatGPT. Les utilisateurs peuvent s�
 Vous pouvez tester cette web app en cliquant sur le lien ci-dessous et en vous connectant avec les identifiants suivants. <br>
 <b>Nom de compte</b> : example@example.com <br>
 <b>Mot de passe</b> : Achanger123! <br>
-<b>Note</b> : Il y a actuellement un quota limite de réponses par minute, c'est donc normal que le site renvoie une erreur 500 si le quota est dépassé.
 
 
 [![](https://img.shields.io/badge/-Go-white?logo=go)](#)
