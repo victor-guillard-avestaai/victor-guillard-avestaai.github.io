@@ -81,13 +81,17 @@ J’ai développé un système de chatbots pour assister les hôtes d’accueil 
 
 ---
 
-### 6. Application Web en Go (Echo, Tailwind, Docker)
-J’ai développé une web app inspirée de ChatGPT. Les utilisateurs peuvent s’inscrire, se connecter et interagir avec un LLM via un chat. L'authentification est gérée de manière sécurisée (hash de mots de passe, protection CSRF, sessions en base, etc.). L’UI a été conçue avec Tailwind CSS et DaisyUI pour apporter un rendu moderne, et l’ensemble du projet s’appuie sur un pipeline CI/CD (GitHub Actions) pour un déploiement fluide sur Google Cloud Run. Ce projet se distingue par sa modularité (architecture claire en Go et Echo), son approche sécurisée (sessions, cookies, rôles), et sa pipeline de CI/CD (tests et builds Docker automatisés), permettant de déployer rapidement de nouvelles fonctionnalités et de scaler facilement.
+### 6. AvestaAI — Application Web en Go (Echo, HTMX, Tailwind, Docker)
 
-Vous pouvez tester cette web app en cliquant sur le lien ci-dessous et en vous connectant avec les identifiants suivants. <br>
-<b>Nom de compte</b> : example@example.com <br>
-<b>Mot de passe</b> : Achanger123! <br>
+J’ai développé AvestaAI, une application web SaaS destinée aux praticiens de santé indépendants. La plateforme leur permet de créer en quelques minutes un site web professionnel multilingue avec un assistant IA intégré capable de répondre automatiquement aux questions des patients.
 
+L’application repose sur une architecture modulaire en Go (Echo) avec rendu serveur via HTMX et Templ, une interface moderne conçue avec Tailwind CSS et DaisyUI, et un hébergement scalable sur Google Cloud Run.
+Chaque utilisateur peut modifier son site (services, galerie, équipe, documentation) grâce à une interface d’édition en ligne fluide et sécurisée.
+
+La gestion des abonnements est assurée via Stripe (paiements récurrents, changements de plan, portail client), et la CI/CD est automatisée avec GitHub Actions pour les tests, builds Docker et déploiements continus.
+Chaque cabinet dispose d’un sous-domaine dédié géré par un multiplexeur HTTP sur mesure ce qui garantit un hébergement isolé et entièrement automatisé.
+
+Vous pouvez tester cette web app en cliquant sur le lien ci-dessous.
 
 [![](https://img.shields.io/badge/-Go-white?logo=go)](#)
 [![](https://img.shields.io/badge/-Echo-white?logo=go)](#)
