@@ -26,7 +26,33 @@ La plateforme leur permet de créer en quelques minutes un site web professionne
 
 ---
 
-### 2. Chatbot d’assistance aux hôtes d'accueil (RAG)
+### 2. Détection de fraude carte bancaire sur GCP
+
+À partir du jeu de données Kaggle « Credit Card Fraud Detection », j’ai conçu et déployé un système complet de détection de fraude qui se rapproche d’un cas réel en production.  
+L’objectif est de combiner une modélisation robuste (validation temporelle, métriques adaptées aux données fortement déséquilibrées) avec une API cloud industrialisable et un monitoring des prédictions.
+
+**Points clés :**
+- Séparation temporelle train/validation/test pour refléter un scénario réel (flux de transactions dans le temps) et éviter les fuites de données.
+- Modèles de régression logistique et XGBoost, avec une évaluation centrée sur PR-AUC et Precision@Top-100 dans un contexte de forte déséquilibre (≈0,17 % de fraudes).
+- Choix d’un seuil de décision optimisé selon un coût FN/FP (coût d’une fraude manquée vs coût d’une alerte injustifiée) plutôt qu’un seuil naïf à 0,5.
+- Exposition du modèle via une API FastAPI sur Cloud Run et journalisation des prédictions dans BigQuery pour analyse et monitoring.
+- Interface web de démonstration permettant de tester le modèle sur de vraies transactions de test (frauduleuses ou légitimes), avec visualisation de la probabilité, de la décision et du type de cas (TP/FP/TN/FN).
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#)
+[![](https://img.shields.io/badge/Scikit_Learn-white?logo=Scikit-Learn)](#)
+[![](https://img.shields.io/badge/XGBoost-white)](#)
+[![](https://img.shields.io/badge/FastAPI-white)](#)
+[![](https://img.shields.io/badge/Docker-white?logo=docker)](#)
+[![](https://img.shields.io/badge/GCP_Cloud_Run-white?logo=googlecloud)](#)
+[![](https://img.shields.io/badge/BigQuery-white?logo=googlecloud)](#)
+
+<a href="https://fraud-detector-api-582389173518.us-central1.run.app/demo" target="_blank" rel="noopener noreferrer">
+  Voir la démo en ligne
+</a>
+
+---
+
+### 3. Chatbot d’assistance aux hôtes d'accueil (RAG)
 
 Développement d’un système de chatbots pour assister les hôtes d’accueil et leurs managers, basé sur Retrieval-Augmented Generation (RAG).
 
@@ -46,7 +72,7 @@ Développement d’un système de chatbots pour assister les hôtes d’accueil 
 
 ---
 
-### 3. Stage de recherche : Estimation d’incertitude dans les réseaux de neurones
+### 4. Stage de recherche : Estimation d’incertitude dans les réseaux de neurones
 
 Les réseaux de neurones profonds sont très performants, mais leur manque d’explicabilité les rend délicats à utiliser en milieux sensibles (médical, sécurité…).  
 Dans ce projet de recherche à l’ISIR (Sorbonne Université), j’ai étudié et ré-implémenté des méthodes avancées d’estimation de l’incertitude et proposé des améliorations.
@@ -67,7 +93,7 @@ Dans ce projet de recherche à l’ISIR (Sorbonne Université), j’ai étudié 
 
 ---
 
-### 4. Segmentation d’une base de données client (projet marketing)
+### 5. Segmentation d’une base de données client (projet marketing)
 
 Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentation pour créer des profils clients interprétables et actionnables pour le marketing.
 
@@ -91,7 +117,7 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentatio
 
 ---
 
-### 5. Prédiction de la note d’un vin (classification multiclasse)
+### 6. Prédiction de la note d’un vin (classification multiclasse)
 
 À partir des données de 130 000 vins, j’ai conçu un modèle pour prédire la note décernée par des critiques (1 à 5 étoiles).
 
@@ -116,7 +142,7 @@ Sur une base de 900 000 clientes, j’ai mis en place un pipeline de segmentatio
 
 ---
 
-### 6. Reinforcement Learning : IA pour jouer au Puissance 4
+### 7. Reinforcement Learning : IA pour jouer au Puissance 4
 
 Agent de Reinforcement Learning (Q-learning) capable de jouer au Puissance 4.
 
